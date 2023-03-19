@@ -1,1 +1,95 @@
+body {
+  background-color: #FAEBD7;
+}
 
+.linebreak {
+  width: 550px;
+  height: 140px;
+  display: block;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.midbreak {
+  margin-top: -240px;
+  margin-bottom: -255px;
+  width: 100%:
+}
+
+h1 {
+  color: #A52A2A; 
+  font-size: 24px;
+  margin-bottom: 30px; 
+  font-family: Baskerville, Helvetica, sans-serif;
+}
+
+h4 {
+  margin-bottom: -5px;
+}
+
+h5 {
+  margin-bottom: -20px;
+  margin-top:
+  font-size: 19px;
+}
+
+.Qualifications {
+  background-color: #DEB887;
+  border-radius: 10px;
+  width: 125px;
+  text-indent: 5px;
+  animation: mymove 5s infinite;
+  animation-delay: 2s;
+}
+
+.experience {
+  background-color: #DEB887;
+  border-radius: 10px;
+  width: 105px;
+  text-indent: 5px;
+  padding:;
+}
+
+.contact {
+  background-color: #DEB887;
+  text-indent: 5px;
+  line-height: 5px;
+  border-radius: 25px;
+  padding: 10px;
+  height: 140px;
+}
+
+.block {
+  text-indent: 5px;
+  margin-bottom: -20px;
+}
+
+.job {
+  text-indent: 5px;
+  margin-bottom: -10px;
+  font-size: 22px;
+}
+
+.education {
+  text-indent: 5px;
+  margin: 10px;
+}
+
+.end {
+  margin-top: 50px;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 15px;
+}
+
+.star1 {
+  width: 2%;
+}
+
+.star2 {
+  width: 2%;
+}
+
+.questions {
+  text-align: center;
+}
