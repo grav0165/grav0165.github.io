@@ -93,3 +93,79 @@ h5 {
 .questions {
   text-align: center;
 }
+
+a:hover {
+        color: #9932CC;
+        background-color: yellow;
+      }
+      
+      a:link {
+        color:green;
+      }
+      
+      a:visted {
+        color: black;
+      }
+      
+      .star2 {
+  position: relative;
+  animation: starmove1 5s infinite;
+  animation-delay: 2s;
+  animation-direction: alternate;
+}
+
+@keyframes starmove1 {
+  from {left: 0%;}
+  to {left: 25%;}
+}
+      
+      .star1 {
+  position: relative;
+  animation: starmove2 5s infinite;
+  animation-delay: 2s;
+  animation-direction: alternate;
+}
+
+@keyframes starmove2 {
+  from {right: 0%;}
+  to {right: 25%;}
+}
+      
+      .button {
+  border-radius: 4px;
+  background-color: #008B8B;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
